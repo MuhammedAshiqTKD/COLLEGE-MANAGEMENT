@@ -1,0 +1,132 @@
+.stud-details-main-card{
+    display: flex;
+    width: 60%;
+    min-height: 500px;
+    border: 2px solid ;
+    margin: auto;
+    /* margin-top: 20px; */
+    border-radius: 7px;
+    padding: 12px;
+    background-color:  #36395A;
+}
+.stud-details-main-card-left{
+    /* background-color: white; */
+    width: 40%;
+    
+    height: 500px;
+    padding-top: 50px;
+}
+.stud-details-main-card-right{
+    padding: 0px 0px 0px 30px;
+    color: #ffffff;
+    border-left: 2px solid #ffffff53;
+}
+.stud-dp{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 15%;
+}
+.stud-dp img{
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin-left: 0%;
+    
+}
+.stud-name{
+    text-align: center;
+    color: #ffffff;
+    /* margin-top: 20px; */
+    letter-spacing: 2px;
+    font-size: 26px;
+}
+.stud-id{
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+.stud-edit{
+    text-align: center;
+    padding-top: 100px;
+}
+.stud-edit-btn{
+    text-decoration: none;
+    background-color: #ffffff;
+    color:  #36395A;
+    border: 1px solid transparent;
+    font-weight: 800;
+    padding: 7px 50px;
+}
+.stud-details-th{
+    height: 38px;
+    width: 170px;
+    letter-spacing: 1px;
+}
+.stud-details-td{
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+.upper-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .staffhome-back-btn {
+    text-decoration: none;
+    color: #ff0000;
+    display: flex;
+    align-items: center;
+  }
+  
+
+  .upper-right {
+    display: flex;
+    align-items: center;
+
+  }
+
+  .Btn {
+    background-color: #36395A; 
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+  }
+  
+
+  .mmm{
+    margin-left: 90%;
+    
+  }
+
+
+
+ 
+.upper-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .staffhome-back-btn {
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    background-color: #36395A;
+    margin-left: 15%;
+    padding: 8px 28px;
+  }
+  
+  

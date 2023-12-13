@@ -1,24 +1,22 @@
 .staffdetails-main-card{
-    /* background-color: rgba(255, 255, 255, 0.218); */
-    border: 2px solid #53d3d1 ;
+    border: 2px solid  #36395A ;
     width: 50%;
     height: 400px;
     margin: auto;
     margin-top: 60px;
     border-radius: 7px;
     display: flex;
+    background-color:  #36395A;
     padding: 15px;
 }
 .staffdetails-main-card-left{
-    /* background-color: red; */
     height: auto;
     width: 40%;
     padding: 10px;
     text-align: center;
-    border-right: 2px solid #53d3d13e;
+    border-right: 2mm ridge rgba(52, 52, 52, 0.6);
 }
 .staffdetails-main-card-right{
-    background-color: #2e3047;
     height: 300px;
     padding-left: 30px;
     width: 60%;
@@ -26,40 +24,49 @@
 .staffdp{
     overflow: hidden;
     background-color: white;
-    height: 190px;
+    height: 170px;
     width: 190px;
     margin: auto;
-    border-radius: 50%;
+    border-radius: 15px 30px 30px; 
+    background-size: cover;
 }
 .staffdp img{
     width: 100%;
+    
 }
 .staffdetails-name{
     text-align: center;
     margin-top: 30px;
-    color: #53d3d1;
+    color: #ffffff;
     margin-bottom: 0 !important;
 }
 .staffdetails-email{
     margin-bottom: 40px;
-    color: #53d3d1;
+    color: #ffffff;
 }
 i{
     margin-right: 10px;
 }
 .staffdetails-edit-btn{
     text-decoration: none;
-    background-color: #53d3d1;
-    color: #2e3047;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
     font-weight: 800;
     border-radius: 3px;
-    padding: 4px 60px;
+    padding: 9px 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.staffdetails-edit-btn:hover{
+
+    color: #000000;
+
 }
 .staffdetails-th{
-    color: #b7ada1;
+    color: #ffffff;
     height: 52px;
     width: 130px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .staffdetails-td{
-    color: #53d3d1;
+    color: #ffffff;
 }

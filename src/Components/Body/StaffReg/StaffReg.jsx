@@ -2,9 +2,11 @@ import React, { useEffect, useState } from 'react'
 // import { Link } from 'react-router-dom'
 import './StaffReg.css'
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 // import { useLocation } from 'react-router-dom';
 
 const StaffReg = () => {
+  const navigate=useNavigate();
   const [username, setUsername] = useState("");
   useEffect(() => {
     const storedUsername = localStorage.getItem("username");
@@ -75,6 +77,8 @@ const StaffReg = () => {
       alert("Data Not Added")
     }else{
       alert("Seccussfully Registred")
+      navigate("/allstafflist")
+
       // navigate("/adminlogin")
     }
    } catch (error) {

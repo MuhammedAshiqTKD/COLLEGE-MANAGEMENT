@@ -16,14 +16,20 @@ import Staffedit from './Components/Body/StaffEdit/Staffedit'
 import Staffdetails from './Components/Body/Staffdetails/Staffdetails'
 import StaffForgotusername from './Components/staffForgoteusername/StaffForgotusername'
 import StaffForgotPwd from './Components/StaffForgotPwd/StaffForgotPwd'
+import Studentregistration from './Components/Body/Studentregistration/Studentregistration'
+import studentview from './Components/Body/studentview/studentview'
+import StudentDetails from './Components/Body/Studentalldetails/Studentalldetail'
+import StudentEdit from './Components/Body/StudentEdit/Studentedit'
+import StudentHome from './Components/Body/StudentHome/Studenthome'
 
 function App() {
   return (
     <>
     <BrowserRouter>
-    <Navbar/>
+    {/* <Navbar/> */}
     <Routes>
-      <Route path='/' Component={Home}/>
+      <Route path='/' Component={StudentHome}/>
+      <Route path='/adminmain' Component={Home}/>
       <Route path='/adminlogin' Component={AdminLogin}/>
       <Route path='/stafflogin' Component={StaffLogin}/>
       <Route path='/staffreg' Component={StaffReg}/>
@@ -38,6 +44,11 @@ function App() {
       <Route path='/staffforgotusername' Component={StaffForgotusername}/>
       <Route path='/staffedit/:id' Component={Staffedit}/>
       <Route path='/staffforgotpwd' Component={StaffForgotPwd}/>
+      <Route path='/studentregistration' Component={Studentregistration}/>
+      <Route path='/studentview' Component={studentview}/>
+      <Route path='/studentdetails/:id' Component={StudentDetails}/>
+      <Route path='/studentedit/:id' Component={StudentEdit}/>
+      {/* <Route path='/stat' Component={StudentDetails}/> */}
     </Routes>
     
     </BrowserRouter>

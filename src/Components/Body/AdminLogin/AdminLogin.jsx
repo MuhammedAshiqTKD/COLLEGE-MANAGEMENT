@@ -10,10 +10,6 @@ const [password,setPassword]=useState('')
 
 
 
-// const Getdata=(e)=>{ 
-//   setUsername((pre)=>({...pre,[e.target.name]:e.target.value}))
-//   console.log(val);
-// }
 
 const Login=async(e)=>{
   e.preventDefault()

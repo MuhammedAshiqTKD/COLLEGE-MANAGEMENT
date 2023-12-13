@@ -11,19 +11,22 @@ const StaffForgotusername = () => {
   const handleChange = (e) => {
     setPhone(e.target.value);
   };
-
+ 
   const getUsername = async (e) => {
     e.preventDefault();
 
     try {
       const res = await axios.get(`http://localhost:3041/college/getusername/${phone}`);
       setEmp(res.data.username);
-      setUsernameMessage(`Username is: ${res.data.username}`);
+      setUsernameMessage(alert(`Username is: ${res.data.username}`));
     } catch (error) {
-      setUsernameMessage("Username not found"); // Handle error if username is not found
+      setUsernameMessage(alert("Username not found")); // Handle error if username is not found
     }
   };
-
+// const [val,setVal]=useState({})
+    // const handlechange=(e)=>{
+    //     setVal({[e.target.name]:e.target.value})
+    //     console.log(val);
   return (
     <div>
       <div className="staff-forgot-card">

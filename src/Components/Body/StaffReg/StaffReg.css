@@ -1,5 +1,5 @@
 .staffreg-main{
-    background: #2e3047;
+    background-color:rgb(239, 231, 231);
     height: 92vh;
     padding-top: 1%;
 }
@@ -8,15 +8,20 @@
 }
 .staffreg-card{
     /* border: 2px solid #53d3d1; */
-    background-color:#2e3047 ;
+    background-color: #36395A ;
     width: 70%;
     height: auto;
     margin: auto;
     border-radius: 8px;
     padding: 20px;
 }
+.staffreg-card:hover{
+    /* border: 2px solid #53d3d1; */
+    background-color: #393d64 ;
+   
+}
 .staffreg-card h4{
-    color: #53d3d1;
+    color: #ffffff;
     font-weight: 800;
 }
 .staff-reg-form{
@@ -24,21 +29,21 @@
     text-align: center;
 }
 .staff-reg-form input{
-    background-color: transparent;
-    border: 2px solid #53d3d1 ;
+    background-color: white;
+    border: 2px solid white ;
     margin-top: 20px;
     width: 30%;
     margin-right: 10px;
     height: 40px;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 10px;
     padding-left: 10px;
     border-radius: 5px;
 }
 .staffreg-card button{
-    background-color: #53d3d1;
-    border: 2px solid #53d3d1 ;
-    color: white;
+    background-color: #ffffff;
+    border: 2px solid #ffffff ;
+    color: rgb(0, 0, 0);
     margin-top: 20px;
     padding: 5px 16px;
     border-radius: 5px;

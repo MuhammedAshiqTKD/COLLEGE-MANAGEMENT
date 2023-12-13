@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Kanit:wght@300&family=Poppins&display=swap');
 .staffhome-heading{
     text-align: center;
     color: #53d3d1;
@@ -6,4 +7,108 @@
     width: 12%;
     /* padding-bottom: 3px; */
     margin: auto;
+}
+
+
+
+body{
+    font-family: 'Poppins', sans-serif; 
+    /* background-color: rgb(105, 105, 105); */
+
+}
+.home-main{
+display: flex;
+background-color: rgb(255, 255, 255);
+}
+.home-main-left{
+    width: 60%;
+    padding-top: 11%;
+    padding-left: 10%;
+}
+.clg-name{
+    /* background-color: black; */
+    padding: 40px;
+    border-left: 3px solid #000000;
+}
+.home-main-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 34%;
+}
+.home-main-left,.home-main-right{
+    height: 92vh;
+}
+.home-main-left h1{
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 50px;
+    color: #53d3d1;
+    margin-bottom: 40px;
+}
+.home-contctus-btn,.home-aboutus-btn{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    padding: 9px 20px;
+    margin-right: 20px;
+    border: 2px solid #53d3d1;
+    border-radius: 40px;
+    transition: .3s;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+
+.home-actype-main-card-staff{
+   border-radius: 10px;
+    height: auto;
+    text-align: center;
+    padding: 40px 50px;
+    padding-bottom: 40px;
+    background-color: #36395A;
+    width: 490px;
+    margin-left: 32%;
+    margin-top: 9%;
+}
+.home-actype-main-card-staff h3{
+    color: #ffffff;
+    font-weight: 700;
+}
+.home-btns-staff{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.home-admin-btn-staff1,.home-staff-btn-staff,.home-student-btn-staff{
+    background-color: #ffffff;
+    margin-bottom: 10px !important;
+    padding: 7px 60px;
+    color: #2e3047;
+    font-weight: 700;
+    width: 89%;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.home-admin-btn-staff1{
+    padding: 7px 38px;
+}
+.home-staff-btn-staff{
+    padding: 7px 72px;
+}
+/* .home-admin-btn:hover{
+    background-color: white;
+    color: #000000;
+}
+.home-staff-btn:hover{
+    background-color: white;
+    color: #000000;
+}
+.home-student-btn:hover{
+    background-color: white;
+    color: #000000;
+} */
+
+@media (min-width:300px) and (max-width:575.98px){
+    .home-main{
+        display: inline;
+    }
 }

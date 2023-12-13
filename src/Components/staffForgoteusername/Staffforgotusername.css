@@ -1,11 +1,12 @@
 .staff-forgot-card{
     width: 27%;
     height: auto;
-    border: 2px solid #53d3d1;
+    border: 2px solid #36395A;
     margin: auto;
     margin-top: 140px;
     border-radius: 6px;
     padding: 20px;
+    background-color: #36395A;
 }
 .staff-forgot-form{
     /* background-color: yellow; */
@@ -15,37 +16,42 @@
     text-align: center;
 }
 .staff-forgot-form button{
-    background-color: #53d3d1;
+    background-color: #ffffff;
     color: #2e3047;
     font-size: 15px;
     padding: 6px 20px;
     margin-top: 30px;
     font-weight: 800;
     text-align: center;
-    border: 2px solid #53d3d1;
+    border: 2px solid #ffffff;
     border-radius: 5px;
 }
 .staff-forgot-form input{
     width: 100%;
-    color: #53d3d1;
-    background-color: transparent;
-    border: 2px solid #53d3d1;
+    color: #cfc1c1;
+    background-color: white;
+    border: 2px solid #ffffff;
     border-radius: 5px;
     padding: 7px;
 }
 .staff-forgot-form p{
     margin-top: 20px;
-    color: #53d3d1;
+    color: #ffffff;
 }
 .staff-forgot-card h5{
     text-align: center;
-    color: #53d3d1;
+    color: #ffffff;
 }
 .stf-frgt-usr{
-    background-color: #53d3d1;
+    background-color: rgb(211, 199, 199);
     color: #2e3047;
     padding: 4px 40px;
     font-weight: 800;
     border-radius: 6px;
     text-decoration: none;
+}
+.stf-frgt-usr:hover{
+   
+    color: #2e3047;
+
 }

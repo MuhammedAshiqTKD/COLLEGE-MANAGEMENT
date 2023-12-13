@@ -1,0 +1,67 @@
+   #navmain {
+       width: 100%;
+       margin-left: auto;
+       padding-left: 46%;
+       display: flex;
+       justify-content: space-between;
+       padding-bottom: 12%;
+   }
+
+   .site-navbar {
+       margin-bottom: 0px;
+       z-index: 1999;
+       position: absolute;
+       top: 2rem;
+       width: 67%;
+   }
+
+   .site-navbar.transparent {
+       background: transparent;
+   }
+
+   .site-navbar.absolute {
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+   }
+
+   .homelink{
+       background: #30486f;
+       color: #fff;
+       border-radius: 20px;
+       display: inline-block;
+       padding: 5px 20px;
+   }
+
+   .site-navbar .site-navigation .site-menu a {
+       text-decoration: none !important;
+       display: inline-block;
+   }
+
+   .site-navbar .site-navigation .site-menu>li {
+       display: inline-block;
+   }
+
+   .site-navbar .site-navigation .site-menu>li>a {
+       padding: 10px 6px;
+       color: #000000;
+       font-size: 16px;
+       text-decoration: none !important;
+   }
+
+   .site-navbar .site-navigation .site-menu>li>a>span {
+       padding: 5px 20px;
+       display: inline-block;
+       -webkit-transition: .3s all ease;
+       -o-transition: .3s all ease;
+       transition: .3s all ease;
+       border-radius: 30px;
+   }
+
+   .site-navbar .site-navigation .site-menu>li>a:hover>span {
+       background: #30486f;
+       color: #ffffff;
+       border-radius: 30px;
+       display: inline-block;
+   }

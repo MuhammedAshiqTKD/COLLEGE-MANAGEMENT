@@ -1,0 +1,105 @@
+
+
+  .login-container11main {
+    font-family: 'Arial', sans-serif;
+    width: 420px;
+    padding: 20px;
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-top: 10%;
+    margin-left: 34%;
+
+  }
+  .signupadmin{
+    padding-left: 35%;
+    text-decoration: none;
+
+    
+  }
+  .reg{
+    margin-top: 5%;
+  }
+
+  .login-container11main h2 {
+    text-align: center;
+    color: #1c1b1b;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+  }
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 12%;
+  }
+
+  .form-groupuser {
+    margin-bottom: 15px;
+    padding-top: 7%;
+  }
+
+  .form-groupuser label {
+    margin-bottom: 8px;
+    color: #2c446b;
+
+  }
+
+  .form-groupuser input {
+    width: 93%;
+    padding: 11px 99px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .submit-btn {
+    background-color: #2D4263;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 11px 10px;
+    width: 34%;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+
+
+
+
+
+
+
+  .form-group1 {
+    margin-bottom: 15px;
+    padding-top: 5%;
+  }
+
+  .form-group1 label {
+    margin-bottom: 8px;
+    color: #30486f;
+
+  }
+
+  .form-group1 input {
+    width: 78%;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+

@@ -60,6 +60,18 @@ useEffect(() => {
                 <th className='staffdetails-th'>Address</th>
                 <td className='staffdetails-td'>: {getStaff.address}</td>
             </tr>
+            <tr>
+                <th className='staffdetails-th'>Address</th>
+                <td className='staffdetails-td'>: {getStaff.address}</td>
+            </tr>
+            <tr>
+                <th className='staffdetails-th'>Address</th>
+                <td className='staffdetails-td'>: {getStaff.address}</td>
+            </tr>
+            <tr>
+                <th className='staffdetails-th'>Address</th>
+                <td className='staffdetails-td'>: {getStaff.address}</td>
+            </tr>
             
           </table>
         </div>

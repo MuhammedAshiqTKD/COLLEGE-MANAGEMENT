@@ -1,27 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Kanit:wght@300&family=Poppins&family=Satisfy&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Kanit:wght@300&family=Poppins&family=Satisfy&display=swap');
 .navbar{
-    background-color: #2e3047;
+    background-color:rgb(239, 231, 231);
   
 }
 .navbar-brand{
-    margin-right: 34%;
+    margin-right: 37%;
     color: #53d3d1;
+    
+    
+    margin-top: 5%;
     text-shadow:0px 0px 10px #53d3d1,
+    
                 0px 0px 20px #53d3d1;
-    /* font-family: 'Satisfy', cursive; */
+    
+   
     font-weight: 900;
-    letter-spacing: 7px;
+    letter-spacing: 17px;
 }
 .nav-link{
-    color: #53d3d1 !important;
+    color: #000000 !important;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+.nav-admin-name{
+    color: #000000;
+    margin-left: 45%;
+    
+} */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Kanit:wght@300&family=Poppins&family=Satisfy&display=swap');
+.navbar{
+    background-color:rgb(239, 231, 231);
+    padding-left: 35%;
+  
+}
+.navbar-brand img{
+    width: 5%;
+}
+
+.nav-link{
+    color: #000000 !important;
     font-weight: 600;
     letter-spacing: 1px;
   
 }
-.nav-link:hover{
-    text-shadow:0px 0px 10px #53d3d1;
-    /* 0px 0px 20px #53d3d1; */
-}
+
 .nav-admin-name{
     color: #53d3d1;
     margin-left: 45%;
