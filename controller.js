@@ -241,7 +241,7 @@ export async function EditStudentDetails(req, res) {
 //         const usr = await admin_schema.findOne({ studentid })
 //         console.log(usr);hvyufuhkuhki
 //         if (usr === null) return res.status(404).send("studentid or dob doesnot exist");
-//         const success = await bcrypt.compare(dob, usr.dob)
+//         const success =njbhjvjhhv await bcrypt.compare(dob, usr.dob)
 //         console.log(sucjygyjgyjfjcess);
 //         if (success !== true) return res.status(404).send("studentid or dob doesnot exist");
 //         const token = await sign({ studentid }, process.env.JWT_KEY, { expiresIn: "24h" })
