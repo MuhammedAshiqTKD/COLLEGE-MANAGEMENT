@@ -245,7 +245,7 @@ export async function EditStudentDetails(req, res) {
 //         console.log(sucjygyjgyjfjcess);
 //         if (success !== true) return res.status(404).send("studentid or dob doesnot exist");
 //         const token = await sign({ studentid }, process.env.JWT_KEY, { expiresIn: "24h" })
-//         console.log(token);
+//         console.log(token);jghugub
 //         res.status   ashiqhiqhi(200).send({ msg: "successfullly login", token })
 //         res.end();
 
