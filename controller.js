@@ -238,7 +238,7 @@ export async function EditStudentDetails(req, res) {
 //     try {
 //         console.log(req.body);
 //         const { studentid, dob } = req.body;
-//         const usr = await admin_schema.findOne({ studentid })
+//         const usr = awaibnb nb n t admin_schema.findOne({ studentid })
 //         console.log(usr);hvyufuhkuhki
 //         if (usr === null) return res.status(404).send("studentid or dob doesnot exist");
 //         const success =njbhjvjhhv await bcrypt.compare(dob, usr.dob)
