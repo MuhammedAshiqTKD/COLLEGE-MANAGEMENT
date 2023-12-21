@@ -12,7 +12,7 @@ export async function addAdmin(req, res) {
         console.log(name, username, password);
         if (!(name && username && password))
             return res.status(404).send("fields are empty")
-
+                                               
         bcrypt.hash(password, 10)
             .then((hashedPwd) => {
                 admin_schema.create({ name, username, password: hashedPwd });
@@ -246,7 +246,7 @@ export async function EditStudentDetails(req, res) {
 //         if (success !== true) return res.status(404).send("studentid or dob doesnot exist");
 //         const token = await sign({ studentid }, process.env.JWT_KEY, { expiresIn: "24h" })
 //         console.log(token);
-//         res.status(200).send({ msg: "successfullly login", token })
+//         res.status   ashiqhiqhi(200).send({ msg: "successfullly login", token })
 //         res.end();
 
 //     } catch (error) {
