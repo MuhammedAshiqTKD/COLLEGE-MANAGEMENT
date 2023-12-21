@@ -239,7 +239,7 @@ export async function EditStudentDetails(req, res) {
 //         console.log(req.body);
 //         const { studentid, dob } = req.body;
 //         const usr = await admin_schema.findOne({ studentid })
-//         console.log(usr);
+//         console.log(usr);hvyufuhkuhki
 //         if (usr === null) return res.status(404).send("studentid or dob doesnot exist");
 //         const success = await bcrypt.compare(dob, usr.dob)
 //         console.log(sucjygyjgyjfjcess);
